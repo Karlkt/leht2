@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nimekiri</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+<br>
+<div id="menu">
+    <a href="?cmd=list" id="list-page-link">Nimekiri</a>&nbsp;&nbsp;|&nbsp;
+    <a href="?cmd=add" id="add-page-link">Lisa</a>
+</div>
+<br>
+<table border="1" width="800px" class="theTable">
+    <thead>
+    <tr>
+        <th scope="col">Eesnimi</th>
+        <th scope="col">Perekonnanimi</th>
+        <th scope="col">Telefon</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr tpl-foreach="$people as $person">
+        <td>{{ $person[0] }}</td>
+        <td>{{ $person[1] }}</td>
+        <td>{{ $person[2] }}</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<div id="footer">
+    ma ei tea mida siia kirjutada
+</div>
+</body>
+</html>

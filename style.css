@@ -1,0 +1,35 @@
+body {
+    font-size: 30px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: crimson;
+    background: aliceblue;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+table{
+    font-size: 25px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: navy;
+}
+
+
+.table-bold{
+    font-weight: bold;
+    font-family: "Tekton Pro";
+    font-size: 32px;
+}
+
+.table_bottom_border{
+    border-bottom: 10px;
+}
+
+.link{
+    text-decoration: none
+;
+}
+
+input[type="text"] {
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lisa</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+<body>
+<br>
+<div id="menu">
+    <a href="?cmd=list" id="list-page-link">Nimekiri</a>&nbsp;&nbsp;|&nbsp;
+    <a href="?cmd=add" id="add-page-link">Lisa</a>
+</div>
+<br>
+<table id="form-table" >
+    <tbody>
+    <form method="post" action="?cmd=AddPerson">
+        <tr>
+            <td>
+                Eesnimi:
+            </td>
+            <td>
+                <label>
+                    <input name="firstName">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Perekonnanimi:
+            </td>
+            <td>
+                <label>
+                    <input name="lastName">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telefon:
+            </td>
+            <td>
+                <label>
+                    <input name ="phone">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input name="submitButton" type="submit" value="Salvesta">
+            </td>
+        </tr>
+    </form>
+    </tbody>
+</table>
+<br>
+<div id="footer">
+    ma ei tea mida siia kirjutada
+</div>
+</body>
+</html>
